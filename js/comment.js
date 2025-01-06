@@ -84,7 +84,7 @@ function createComment(comment, index) {
               <div class="flex justify-between w-full">
                 <p id="studentName-${comment.id}" class="font-semibold">
                   ${comment.studentName}
-                  <span class="font-normal text-black/50 pl-2">posted a comment!</span>
+                  <span class="font-normal text-black/50 pl-2">posted</span>
                 </p>
                 <div class="flex gap-1 items-center">
                   <div id="newComment-${comment.id}" class="w-2 h-2 bg-orange-500 rounded-full ${!comment.isNew ? 'hidden' : ''}"></div>

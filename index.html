@@ -214,22 +214,22 @@
               </li>
             </a>
 
-            <a href="/training-courses.html">
+            <a href="/institutions.html">
               <li id="sidemenu-list"
                 class="h-12 pl-4 flex items-center hover:bg-[#ba9070] rounded-xl sidemenu-list transition-all ease-out duration-300 cursor-pointer ">
                 <div class="flex gap-4 items-center">
-                  <img class="w-6 h-6" src="assets/icons/my-courses.svg" alt="home">
-                  <span class="sidebar-text">Training Courses</span>
+                  <img class="w-6 h-6" src="assets/icons/institution.svg" alt="home">
+                  <span class="sidebar-text">Institutions</span>
                 </div>
               </li>
             </a>
 
-            <a href="/student-courses.html">
+            <a href="/all-courses.html">
               <li id="sidemenu-list"
                 class="h-12 pl-4 flex items-center hover:bg-[#ba9070] rounded-xl sidemenu-list transition-all ease-out duration-300 cursor-pointer ">
                 <div class="flex gap-4 items-center">
                   <img class="w-6 h-6" src="assets/icons/student-courses.svg" alt="home">
-                  <span class="sidebar-text">Student Courses</span>
+                  <span class="sidebar-text">All Courses</span>
                 </div>
               </li>
             </a>
@@ -243,6 +243,18 @@
                 </div>
               </li>
             </a>
+
+            <a href="/category-skills.html">
+              <li id="sidemenu-list"
+                class="h-12 pl-4 flex items-center hover:bg-[#ba9070] rounded-xl sidemenu-list transition-all ease-out duration-300 cursor-pointer ">
+                <div class="flex gap-4 items-center">
+                  <img class="w-6 h-6" src="assets/icons/category.svg" alt="home">
+                  <span class="sidebar-text">Categories & Skills</span>
+                </div>
+              </li>
+            </a>
+
+
             <a href="/report.html">
               <li id="sidemenu-list"
                 class="h-12 pl-4 flex items-center hover:bg-[#ba9070] rounded-xl sidemenu-list transition-all ease-out duration-300 cursor-pointer ">
@@ -262,33 +274,7 @@
       <!-- bottom menu list -->
       <div>
 
-        <!-- expanded educat chatbot button-->
-        <div id="educat-sidemenu-big"
-          class="lg:min-h-[100px] bg-gradient-to-b from-[#92623d] to-[#ad764c] rounded-2xl relative my-6 overflow-hidden">
-          <img class="absolute z-10  w-[90px] top-2 -right-2 " src="assets/img/educy.webp" alt="chat bot">
-          <div class="px-3 py-3">
-            <p class="">I'm</p>
-            <p class="font-bold text-lg tracking-tight -mt-1">EduCy<span class="text-xs font-base">&nbsp;2.0</span></p>
 
-            <p class="mt-6">Your AI</p>
-            <p class=" text-sm tracking-tight">Learning Assistant</p>
-
-            <button
-              class=" ecChatBotBtn bg-white text-[#bf4b00] mt-4 w-full py-2 text-semibold flex gap-1 rounded-lg justify-center items-center font-lg font-semibold hover:shadow-sm">
-              <img src="assets/icons/chat-regular.svg" alt="chat with educat">
-              Let's Chat
-            </button>
-
-          </div>
-
-        </div>
-
-        <!-- shrink educat chatbot button -->
-        <button id="educat-sidemenu-sm"
-          class="ecChatBotBtnSm bg-white text-[#bf4b00] my-6 w-full py-2 text-semibold hidden rounded-lg justify-center items-center">
-          <img src="assets/icons/chat-regular.svg" alt="chat with educat">
-
-        </button>
 
         <!-- bottom menu list -->
         <nav class="pb-4">
@@ -306,7 +292,7 @@
             <li class="w-full h-[2px] bg-white/20"></li>
 
             <li id="sidemenu-list"
-              class="h-12 pl-4 flex items-center hover:bg-[#fa9d53] rounded-xl sidemenu-list transition-all ease-out duration-300">
+              class="h-12 pl-4 flex items-center hover:bg-[#ba9070] rounded-xl sidemenu-list transition-all ease-out duration-300">
               <a href="#" class="flex gap-4 items-center">
                 <img class="w-6 h-6" src="assets/icons/logout.svg" alt="home">
                 <span class="sidebar-text">Logout</span>
@@ -375,7 +361,7 @@
 
       <!-- user profile -->
       <div class="flex gap-2 justify-center items-center">
-        <p class="font-semibold lg:block hidden">Fathima Thasneem</p>
+        <p class="font-semibold lg:block hidden">Educraft Admin</p>
 
         <!-- notification Button mobile -->
         <div class="bg-[#fdf0e7] rounded-full w-10 h-10 flex justify-center items-center relative lg:hidden">
@@ -384,8 +370,9 @@
           <img src="assets/icons/bell.svg" alt="">
         </div>
 
-        <img class="w-10 h-10 rounded-full border-2 border-primary" src="assets/img/general/teacher.png"
-          alt="user profile">
+        <div class="rounded-full flex justify-center  items-center w-8 h-8 border-2  border-primary">
+          <img class="w-5 h-5" src="assets/img/general/educraft-color.svg" alt="user profile">
+        </div>
       </div>
     </header>
 
@@ -413,39 +400,34 @@
               <p>Welcome back,</p>
 
               <!-- user name dynamic change here -->
-              <span class="font-semibold">Fathima</span>
+              <span class="font-semibold">Admin</span>
 
               <img class="w-8 h-8" src="assets/img/hi.webp" alt="hi">
 
             </div>
 
             <!-- motivational quote texts -->
-            <div class="max-h-[200px] relative rounded-xl overflow-hidden">
+            <div class="min-h-[200px] relative bg-[#fcf7f0] rounded-xl overflow-auto border border-black/10">
 
               <!-- content -->
-              <div class="z-10 absolute w-full h-full text-white p-4 flex flex-col justify-between">
+              <div class="z-10 absolute w-full h-full text-black p-4 flex flex-col justify-between">
                 <div>
                   <div class="flex gap-2">
-                    <img src="assets/icons/book-white.svg" alt="">
-                    <p>EduQuote Daily</p>
+                    <svg class="w-[20px] fill-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                      fill="currentColor">
+                      <path
+                        d="M3.90145 17.8636L7.81249 13.9526L10.6409 16.781L15.212 12.2099L17.0049 14.0028V9.00281H12.0049L13.7978 10.7957L10.6409 13.9526L7.81249 11.1241L2.86662 16.07C2.31276 14.8274 2.00488 13.4511 2.00488 12.0028C2.00488 6.47996 6.48204 2.00281 12.0049 2.00281C17.5277 2.00281 22.0049 6.47996 22.0049 12.0028C22.0049 17.5257 17.5277 22.0028 12.0049 22.0028C8.67116 22.0028 5.71844 20.3715 3.90145 17.8636Z">
+                      </path>
+                    </svg>
+                    <p>Leaderboard</p>
                   </div>
 
-                  <p id="eduQuoteDailyText" class=" mt-3 my-2 leading-tight font-medium text-[1.1rem]">“Education is the
-                    key to unlock the golden door of freedom.”</p>
-                  <p id="eduQuoteDailyAuthor" class="italic font-thin">Nelson Mandella</p>
+                  <p id="eduQuoteDailyText" class=" mt-6 my-2 leading-tight ">Under Development⚠️</p>
                 </div>
 
-                <div class="flex justify-between gap-4">
-                  <p>Your students’ success shows your dedication.</p>
-                  <a href="#"
-                    class="bg-white text-primary font-medium py-3 rounded-xl min-w-[160px] flex justify-center items-center">Create
-                    a Course Now</a>
-                </div>
+
 
               </div>
-
-              <div class="absolute w-full h-full bg-[#9c663b]/80"></div>
-              <img src="assets/img/motivational-bg.webp" alt="quote">
 
             </div>
 
@@ -470,15 +452,19 @@
                 <!-- Student picture, name & class change here -->
                 <div class="flex justify-between w-full items-end absolute bottom-2 ">
                   <div class="flex items-end gap-2">
-                    <img class="w-[60px] ml-4 rounded-full  border-[3px] border-white"
-                      src="assets/img/general/teacher.png" alt="student-image">
-                    <p class="font-medium text-md-custom">Fathima Thasneem</p>
+                    <div
+                      class="bg-primaryLight rounded-full w-[60px] h-[60px] flex justify-center items-center ml-4 border-black/10 border ">
+
+                      <img class="w-[40px]" src="assets/img/general/educraft-color.svg" alt="student-image">
+
+                    </div>
+                    <p class="font-medium text-md-custom">Educraft</p>
                   </div>
                   <div class="flex items-center">
-                    <p>Class</p>
+                    <p>Admin</p>
                     <div
                       class="w-6 h-6 text-xs bg-primaryLight text-primaryDark rounded-full flex justify-center items-center font-semibold">
-                      3A
+                      1
                     </div>
                   </div>
 
@@ -503,11 +489,11 @@
 
                 <!-- quizzes -->
                 <div class="flex flex-col items-center">
-                  <img class="w-5 pb-1" src="assets/img/training-done.png" alt="chapters">
-                  <p class="text-xs font-medium text-black/60">Training Done</p>
+                  <img class="w-5 pb-1" src="assets/icons/teacher-icon.png" alt="chapters">
+                  <p class="text-xs font-medium text-black/60">Total Teachers</p>
 
                   <!-- quizzes completed value change here -->
-                  <span class="text-xl font-semibold text-primaryDark">5</span>
+                  <span class="text-xl font-semibold text-primaryDark">12</span>
 
                 </div>
 
@@ -517,10 +503,10 @@
                 <!-- educoins -->
                 <div class="flex flex-col items-center">
                   <img class="w-5 pb-1" src="assets/img/my-added-courses.webp" alt="chapters">
-                  <p class="text-xs font-medium text-black/60">My Courses</p>
+                  <p class="text-xs font-medium text-black/60">Total Courses</p>
 
                   <!-- Educoins completed value change here -->
-                  <span class="text-xl font-semibold text-primaryDark">2</span>
+                  <span class="text-xl font-semibold text-primaryDark">6</span>
 
                 </div>
 
@@ -536,14 +522,14 @@
         <div class="bg-primaryLight rounded-2xl border border-black/10 px-4 pb-1 pt-3">
           <div id="courseInsightChart">
             <div class="flex justify-between">
-              <p class="text-lg-custom">Course Insight</p>
+              <p class="text-lg-custom">Student Insight</p>
               <select name="insight-class" id="insightClass"
                 class="cursor-pointer bg-transparent text-primaryDark font-medium px-2 py-1">
-                <option value="1">Class 4B</option>
-                <option value="2">Class 5B</option>
-                <option value="3">Class 6B</option>
-                <option value="4">Class 6C</option>
-                <option value="5">Class 6D</option>
+                <option value="1">NIMS Dubai</option>
+                <option value="2">NIMS Sharjah</option>
+                <option value="3">NIMS Dubai</option>
+                <option value="4">NIMS Dubai</option>
+                <option value="5">NIMS Dubai</option>
               </select>
             </div>
           </div>
@@ -556,11 +542,11 @@
             <p class="text-lg-custom">Student Performance</p>
             <select name="stdPrfm-class" id="stdPrfmClass"
               class="cursor-pointer bg-transparent text-primaryDark font-medium px-2 py-1">
-              <option value="1">Class 4B</option>
-              <option value="2">Class 5B</option>
-              <option value="3">Class 6B</option>
-              <option value="4">Class 6C</option>
-              <option value="5">Class 6D</option>
+              <option value="1">NIMS Dubai</option>
+              <option value="2">NIMS Sharjah</option>
+              <option value="3">NIMS Dubai</option>
+              <option value="4">NIMS Dubai</option>
+              <option value="5">NIMS Dubai</option>
             </select>
           </div>
 
@@ -627,6 +613,17 @@
         <div class="w-full flex flex-col gap-2">
           <div class="h-10  flex justify-between items-center">
             <p class="text-lg-custom">What's New</p>
+            <div id="addWhatsNewBtn"
+              class="px-4 min-h-[34px] border border-black/10 cursor-pointer  bg-[#fff5e7] hover:bg-[#f9ebd8] flex justify-center items-center font-semibold text-primaryDark rounded-lg">
+              <svg class="fill-[#8f5c34] w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path>
+              </svg>
+              Add
+            </div>
+          </div>
+
+          <div id="whatsnewContainer" class="flex flex-col gap-5 px-4 py-2 lg:overflow-auto scrollbar-custom ">
+            <!-- Announcements will be injected here by JavaScript -->
           </div>
 
           <div class=" min-h-[200px]">
@@ -1061,6 +1058,108 @@
 
   </div>
 
+
+  <!-- =========================================== -->
+  <!-- Whats new Post Popup -->
+  <!-- =========================================== -->
+
+  <div id="whatsnewAddPopup" class="hidden fixed z-[200] bg-black/70 w-screen h-screen justify-center items-center">
+
+
+    <!-- Popup Box container -->
+    <div class="bg-white rounded-xl lg:max-w-3xl w-full  flex flex-col py-3 relative overflow-hidden pb-12">
+
+      <!-- Popup Header -->
+      <div class="flex justify-between pb-2 px-4">
+        <p class="text-lg font-semibold">Add What's New</p>
+        <button id="closePopupButton"
+          class="close-whatsnew-post-popup-btn w-8 h-8 bg-black/10 rounded-full flex justify-center items-center hover:bg-black/20">
+          <img class="fill-black w-5" src="/assets/icons/close-line.svg" alt="close button">
+        </button>
+      </div>
+
+      <!-- Separator -->
+      <div class="w-full bg-gradient-to-r from-black/5 via-gray-200 to-black/5 min-h-[1px] mb-4 ">
+      </div>
+
+      <!-- Form Fields -->
+      <div class="overflow-auto h-full px-4 scrollbar-custom flex flex-col lg:flex-row pb-6">
+
+        <div class="flex flex-col space-y-4 h-full  lg:w-[65%] ">
+          <!-- Course Title -->
+          <div class="mb-2">
+            <label for="questionTitle" class="block text-xs  font-medium text-black">TITLE</label>
+            <input type="text" id="courseTitle"
+              class="mt-1 capitalize block w-full bg-transparent rounded-md placeholder-gray-400 focus:outline-none focus:ring-0 font-semibold text-[16px]"
+              placeholder="Type Title here...">
+          </div>
+          <!-- Category Dropdown -->
+          <div class="">
+            <label for="questionTitle" class="block text-xs  font-medium text-black uppercase">category</label>
+            <select id="courseCategory" class="w-full border border-gray-300 rounded-lg p-2 mt-1">
+              <option value="" disabled selected>Select Category</option>
+              <option value="Computer Science">Events</option>
+              <option value="Mathematics">Coding Camp</option>
+              <option value="Science">Launch</option>
+            </select>
+          </div>
+
+          <!-- Social media link Dropdown -->
+          <div class="">
+            <label for="questionTitle" class="block text-xs  font-medium text-black uppercase">Social Media</label>
+            <select id="courseCategory" class="w-full border border-gray-300 rounded-lg p-2 mt-1">
+              <option value="" disabled selected>Select Category</option>
+              <option value="Computer Science">Linked in</option>
+              <option value="Mathematics">Instagram</option>
+              <option value="Science">Facebook</option>
+            </select>
+          </div>
+
+          <input class="border px-4 py-2 w-full rounded-lg" type="text" placeholder="Paste Link here..">
+
+
+        </div>
+
+        <div class=" lg:w-[35%] px-3 ">
+          <div>
+            <!-- Upload Thumbnail -->
+            <div>
+              <label for="questionTitle" class="block text-xs  font-medium text-black uppercase pb-2">Upload
+                Image</label>
+
+              <div class="bg-primaryLight min-h-[140px] flex justify-center items-center flex-col rounded-lg">
+                <img class="w-10" src="assets/img/course-thumbnail/thumbnail-placeholder.webp" alt="">
+
+                <div class="mt-2 underline font-medium cursor-pointer" id="thumbnailInput">Click to upload</div>
+                <!-- <input id="thumbnailInput" type="file" accept="image/*"
+                  class="block w-full text-sm text-gray-500 border  rounded-lg cursor-pointer mt-2 "> -->
+                <p class="text-sm text-gray-500">Max file size: 2MB</p>
+
+              </div>
+              <!-- Display Thumbnail -->
+              <img id="thumbnailPreview" class="mt-2 w-32 h-24 object-cover hidden" alt="Course Thumbnail">
+            </div>
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+      <!-- Popup Footer -->
+      <div
+        class="flex absolute bottom-0 justify-end gap-3 px-4 py-2 border border-t-black/10 border-transparent bg-white w-full">
+        <button id="cancelButton" class="close-whatsnew-post-popup-btn bg-gray-200 text-black min-w-[120px] px-4 py-2 rounded-lg">Cancel</button>
+        <button id="createButton" class="bg-primary text-white min-w-[120px] px-4 py-2 rounded-lg">Create</button>
+      </div>
+
+    </div>
+
+
+
+  </div>
+
   </div>
 
 
@@ -1071,6 +1170,7 @@
   <script src="./js/comment.js"></script>
   <script src="./js/mobileMenu.js"></script>
   <script src="./js/notification.js"></script>
+  <script src="./js/whatsnew.js"></script>
   <script src="./js/chart.js"></script>
 
   <!-- Swiper JS -->
